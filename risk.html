@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Risk Register</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fef5f5;
+            color: #333;
+            margin: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background-color: #fff;
+        }
+
+        th, td {
+            border: 1px solid #e0b4b4;
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #bd0000;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #ff9696;
+        }
+
+        tr:hover {
+            background-color: #f2aaaa;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Risk Register</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Activity ID</th>
+                <th>Risk Title</th>
+                <th>Risk Owner</th>
+                <th>Risk Category</th>
+                <th>Probability</th>
+                <th>Impact</th>
+                <th>Planned Response</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Keterlambatan Penyelesaian Timeline</td>
+                <td>Project Manager</td>
+                <td>Schedule Risk</td>
+                <td>Medium</td>
+                <td>High</td>
+                <td>Escalate, Keterlambatan signifikan mungkin melibatkan pihak eksternal, sehingga harus dilaporkan kepada klien atau pemangku kepentingan.</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Ketidaksesuaian Kebutuhan dengan Desain</td>
+                <td>Business Analyst</td>
+                <td>Requirement Risk</td>
+                <td>High</td>
+                <td>High</td>
+                <td>Enhance, Memastikan keterlibatan aktif client dengan meningkatkan komunikasi dan validasi kebutuhan secara berkala.</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Error pada Pengembangan Sistem</td>
+                <td>Developer Team Leader</td>
+                <td>Technical Risk</td>
+                <td>Medium</td>
+                <td>High</td>
+                <td>Accept, Kesalahan teknis adalah risiko yang melekat pada pengembangan sistem. Tim akan menyadari keberadaannya dan merespons sesuai SOP.</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Kendala Akses Hosting</td>
+                <td>System Administrator</td>
+                <td>Operational Risk</td>
+                <td>Low</td>
+                <td>Medium</td>
+                <td>Share, Hosting dapat dialihkan kepada penyedia layanan pihak ketiga yang memiliki SLA tinggi untuk mengurangi risiko.</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Kekurangan SDM dalam Pengembangan</td>
+                <td>Project Manager</td>
+                <td>Resource Risk</td>
+                <td>Medium</td>
+                <td>High</td>
+                <td>Escalate, Jika kekurangan SDM berdampak signifikan, harus dilaporkan kepada manajemen untuk mendapatkan sumber daya tambahan.</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Penolakan Sistem oleh Pengguna Akhir</td>
+                <td>Trainer</td>
+                <td>Acceptance Risk</td>
+                <td>Low</td>
+                <td>High</td>
+                <td>Enhance, Meningkatkan keterlibatan pengguna melalui pelatihan mendalam dan mendengarkan umpan balik selama tahap implementasi.</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Perubahan Scope selama Proyek</td>
+                <td>Project Manager</td>
+                <td>Scope Risk</td>
+                <td>Medium</td>
+                <td>High</td>
+                <td>Escalate, Perubahan scope harus dibahas dan disetujui oleh seluruh stakeholder karena berpengaruh besar terhadap timeline dan anggaran.</td>
+            </tr>
+
+            <tr>
+                <td>8</td>
+                <td>Kesalahan UAT</td>
+                <td>QA Tester</td>
+                <td>Testing Risk</td>
+                <td>Low</td>
+                <td>Medium</td>
+                <td>Enhance, Tim akan memastikan peningkatan kualitas skenario pengujian dan memperkuat sistem validasi dalam proses UAT.</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>Biaya Melebihi Anggaran</td>
+                <td>Project Manager</td>
+                <td>Financial Risk</td>
+                <td>Medium</td>
+                <td>High</td>
+                <td>Escalate, Biaya yang melebihi anggaran memerlukan persetujuan dari klien untuk pengalokasian dana tambahan.</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
